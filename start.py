@@ -1,5 +1,5 @@
 import streamlit as st
-
+import webbroswer
 st.markdown("""
 <div class = 'container'>
   <p class = 'title'>Welcome To SPE Family</p>
@@ -37,7 +37,7 @@ st.markdown("""
 """ , unsafe_allow_html=True)
 
 
-st.button('Start')
+clisked = st.button('Start')
 st.markdown("""
 <style>
 .st-emotion-cache-1bv3lpx {
@@ -60,4 +60,6 @@ st.markdown("""
 }
 </style>
 """ , unsafe_allow_html=True)
+if clicked :
+  webbroswer.open('https://www.google.com')
   
