@@ -356,9 +356,7 @@ st.markdown("""
 """ , unsafe_allow_html=True)
 
 #--------------------------------------------- Committee -------------------------------------------
-committees = ('Web Development' , 'Android App' , 'Social Media' , 'Multimedia' , 'Direct Marketing' , 'Energy4me' , 'Extracurricular' , 'Logistics' , 'OC' , 'Magazine Editing' , 'Magazine Design' , 'International Relations (IR)' , 'Human Resources Development (HRD)' , 'Human Resources Management (HRM)')
-
-
+committees = ('Data Analysis' , 'Web Development' , 'Android App' , 'Social Media' , 'Multimedia' , 'Direct Marketing' , 'Energy4me' , 'Extracurricular' , 'Logistics' , 'OC' , 'Magazine Editing' , 'Magazine Design' , 'International Relations (IR)' , 'Human Resources Development (HRD)' , 'Human Resources Management (HRM)')
 with st.container():
     committee = st.selectbox('Which committee do you want to join ?' , committees)
 
