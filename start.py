@@ -1,5 +1,5 @@
 import streamlit as st
-import webbroswer
+import webbrowser
 st.markdown("""
 <div class = 'container'>
   <p class = 'title'>Welcome To SPE Family</p>
@@ -61,5 +61,5 @@ st.markdown("""
 </style>
 """ , unsafe_allow_html=True)
 if clicked :
-  webbroswer.open('https://spewebform-u3nsh3aihdfxjdwheyjfq7.streamlit.app/')
+  webbrowser.open('https://spewebform-u3nsh3aihdfxjdwheyjfq7.streamlit.app/')
   
