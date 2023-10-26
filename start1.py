@@ -38,28 +38,7 @@ st.markdown("""
 
 
 is_clicked = st.button('Start')
-st.markdown("""
-<style>
-.st-emotion-cache-1bv3lpx {
-    display: inline-flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    font-weight: 400;
-    padding: 0.25rem 0.75rem;
-    border-radius: 0.5rem;
-    min-height: 38.4px;
-    margin: 0px 29%;
-    line-height: 1.6;
-    color: #ffffff;
-    width: 300px;
-    user-select: none;
-    background-color: #ff0000;
-    border: 1px solid #ff0000;
-}
-</style>
-""" , unsafe_allow_html=True)
+
   
 if is_clicked:
     url = 'https://spewebform-u3nsh3aihdfxjdwheyjfq7.streamlit.app/'
