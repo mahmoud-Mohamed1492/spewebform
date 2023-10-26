@@ -61,5 +61,5 @@ st.markdown("""
 </style>
 """ , unsafe_allow_html=True)
 if clicked :
-  webbroswer.open('https://spewebform-is6p2thorvbprcuzounmkm.streamlit.app/')
+  webbroswer.open('https://spewebform-u3nsh3aihdfxjdwheyjfq7.streamlit.app/')
   
