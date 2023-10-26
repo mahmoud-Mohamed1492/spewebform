@@ -37,7 +37,7 @@ st.markdown("""
 """ , unsafe_allow_html=True)
 
 
-clisked = st.button('Start')
+clicked = st.button('Start')
 st.markdown("""
 <style>
 .st-emotion-cache-1bv3lpx {
