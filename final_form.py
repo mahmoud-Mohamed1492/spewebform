@@ -1,7 +1,6 @@
 import streamlit as st
 import webbrowser
 import pymysql
-import mysql.connector
 HOST = "sql12.freesqldatabase.com"
 PORT = 3306
 USER = "sql12654927"
